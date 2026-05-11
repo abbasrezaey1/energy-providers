@@ -94,7 +94,7 @@ Environment variables are loaded from `.env` (see `.env.example`).
 
 ## Database
 
-- **Primary schema:** import `xafh7070_webs.sql` into your database. The file header includes example `CREATE DATABASE` / `GRANT` / `mysql` import commands.
+- **Primary schema:** import `vana0844_energy_providers.sql` into an empty MySQL/MariaDB database, then set `DB_NAME` in `.env` to that database name (the dump label `vana0844_energy_providers` is informational only; there is no `USE` statement in the file).
 - **Optional SQL** under `sql/`:
   - `seed_energy_providers_demo.sql` — demo data where applicable.
   - `migrate_submissions_energy_columns.sql`, `patch_provider_images.sql`, `cleanup_legacy_dummy_submissions.sql` — use when upgrading or cleaning an existing install (review each file before running).

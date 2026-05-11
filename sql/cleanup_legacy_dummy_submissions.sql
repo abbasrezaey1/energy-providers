@@ -1,5 +1,5 @@
 -- Remove old stock-import demo articles (Lorem Ipsum, "Why do we use it?", etc. from `abc-cbd.fr`).
--- IDs match the default `xafh7070_webs.sql` dump. Backup your DB first.
+-- IDs may match rows from older demo dumps. Backup your DB first.
 -- If your dummy rows use other IDs, run: SELECT submission_id, title, web_id FROM submissions WHERE title LIKE '%Lorem%';
 
 SET NAMES utf8mb4;
