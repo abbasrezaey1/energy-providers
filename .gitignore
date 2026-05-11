@@ -2,5 +2,7 @@
 templates_c/
 cache/
 .sass-cache/
+cgi-bin/
+.well-known/
 DEBUG_ON
 php_error.log
