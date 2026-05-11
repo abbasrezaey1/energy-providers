@@ -1,0 +1,4 @@
+.env
+templates_c/*.php
+DEBUG_ON
+php_error.log
