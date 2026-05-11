@@ -20,11 +20,11 @@ SET time_zone = "+00:00";
 --
 -- Deploy: create an empty database (any name), grant your app user ALL on it,
 -- import this file, then set DB_HOST, DB_NAME, DB_USER, DB_PASSWORD in `.env`.
--- Example: mysql -u youruser -p yourdbname < vana0844_energy_providers.sql
+-- Example: mysql -u youruser -p yourdbname < database.sql
 --
 
 --
--- Database: `vana0844_energy_providers`
+-- Database: (no USE in file — import into the DB that matches DB_NAME in .env)
 --
 
 -- --------------------------------------------------------

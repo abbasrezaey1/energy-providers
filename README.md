@@ -94,7 +94,7 @@ Environment variables are loaded from `.env` (see `.env.example`).
 
 ## Database
 
-- **Primary schema:** import `vana0844_energy_providers.sql` into an empty MySQL/MariaDB database, then set `DB_NAME` in `.env` to that database name (the dump label `vana0844_energy_providers` is informational only; there is no `USE` statement in the file).
+- **Primary schema:** import `database.sql` into an empty MySQL/MariaDB database, then set `DB_NAME` in `.env` to that database name. The file has no `USE` statement, so you choose the database name when importing.
 
 The application resolves `web_id` from `BASE_PATH` or from the request host when installed at the site root (`index.php` / `lib/config.php`).
 
